@@ -1,0 +1,52 @@
+:root {
+	--myColor: rgba(176, 199, 255, 0.5);
+}
+html {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: 16px;
+}
+hr {
+	margin: 5px auto;
+}
+body {
+	background-color: var(--myColor);
+	color: #ccc;
+	margin: 15px;
+	padding: 25px;
+	font-size: 1.2rem;
+	transition: background-color 2.5s ease-in-out;
+}
+.thisMain {
+	background-color: #333;
+	padding: 16px;
+	border-radius: 7px;
+	min-height: 350px;
+}
+.thisMain span {
+	color: palegoldenrod;
+	font-size: 1.5rem;
+}
+#myTable {
+	width: 85%;
+	margin: auto;
+}
+#myTable th, td {
+	font-size: 1.1rem;
+	/* padding: 5px; */
+	/* width: 25%; */
+	/* border: 1px solid gray; */
+	/* border-collapse: collapse; */
+}
+#myTable th {
+	background-color: #4CAF50;
+	color: white;
+	/* padding-top: 12px; */
+	/* padding-bottom: 12px; */
+	/* text-align: left; */
+ }
+#myTable td.True {
+	color: orange;
+	font-weight: bold;
+}
