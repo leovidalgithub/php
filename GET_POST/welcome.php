@@ -27,7 +27,7 @@
                     echo "<span>Your Email</span> " . $email . "<hr/>";
                 ?>
             </div>
-            <script src="myscripts.js?v=1.24"></script>
+            <script src="../myscripts.js?v=1.24"></script>
         </body>
 
         </html>

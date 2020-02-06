@@ -1,7 +1,7 @@
 <html>
 	<head>	
 		<title>Exercise 1</title>
-		<link rel="stylesheet" type="text/css" href="style.css?v=1.21">
+		<link rel="stylesheet" type="text/css" href="../style.css?v=1.21">
 	</head>
 <body>
 <?php 
@@ -23,6 +23,6 @@
 				echo "<hr><br>Long Live Socialism!";
 		?>
 	</div>	
-		<script src="myscripts.js?v=1.21"></script>
+		<script src="../myscripts.js?v=1.21"></script>
 </body>
 </html>

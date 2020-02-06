@@ -1,5 +1,7 @@
 <?php
-    if (empty($_POST['employeeId']) or empty($_POST['firstName']) or empty($_POST['grossSalary']) ) {
+    if(empty($_POST['employeeId']) 
+       or empty($_POST['firstName']) 
+       or empty($_POST['grossSalary']) ) {
         echo "<strong>Oops! Some info is missing here.</strong><br><br>
             Go back and try again.<br><br>";
     } else {

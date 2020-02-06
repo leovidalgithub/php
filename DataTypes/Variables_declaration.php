@@ -7,6 +7,7 @@
 
     $var3 = NULL;
     $var4;
+    // $var5;
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,19 +16,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Type of Functions</title>
-    <link rel="stylesheet" href="style.css?v=1.24">
+    <title>Variables Declaration</title>
+    <link rel="stylesheet" href="../style.css?v=1.24">
 </head>
 
 <body>
     <div class="thisMain">
-        <h3><span>Type of Functions</span></h3>
+        <h3><span>Variables Declaration</span></h3>
 
         <?php
         echo "var1 = 123 / var6 = 0 / ";
         echo "var2 = 'Car' / var7 = '' / ";
         echo "var3 = NULL / ";
-        echo "var4<hr>";    
+        echo "var4<hr>";
 
         echo "isset(var1) : " . getBooleanText(isset($var1)) . " / " . "isset(var6) : " . getBooleanText(isset($var6)) . "<br/>";
         echo "isset(var2) : " . getBooleanText(isset($var2)) . " / " . "isset(var7) : " . getBooleanText(isset($var7)) . "<br/>";
@@ -49,7 +50,7 @@
 
         ?>
     </div>
-    <script src="myscripts.js?v=1.24"></script>
+    <script src="../myscripts.js?v=1.24"></script>
 </body>
 
 </html>

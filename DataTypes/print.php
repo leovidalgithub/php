@@ -1,7 +1,7 @@
 <html>
 	<head>	
 		<title>print</title>
-		<link rel="stylesheet" type="text/css" href="style.css?v=1.21">		
+		<link rel="stylesheet" type="text/css" href="../style.css?v=1.21">		
 	</head>
 <body>
 	<?php	

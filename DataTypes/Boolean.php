@@ -1,7 +1,7 @@
 <html>
 	<head>	
 		<title>Booleans</title>
-		<link rel="stylesheet" type="text/css" href="style.css?v=1.21">
+		<link rel="stylesheet" type="text/css" href="../style.css?v=1.21">
 	</head>
 <body>
 	<div class="thisMain">
@@ -24,6 +24,6 @@
 			echo "<br>"		
 		?><hr>
 	</div>	
-		<script src="myscripts.js?v=1.21"></script>
+		<script src="../myscripts.js?v=1.21"></script>
 </body>
 </html>

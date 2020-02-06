@@ -1,7 +1,7 @@
 <html>
 	<head>	
 		<title>Variables</title>
-		<link rel="stylesheet" type="text/css" href="style.css?v=1.21">
+		<link rel="stylesheet" type="text/css" href="../style.css?v=1.21">
 	</head>
 <body>
 	<div class="thisMain">
@@ -28,6 +28,6 @@
 		Ceiling <?php echo ceil($myFloat);?><br>
 		Floor <?php echo floor($myFloat);?><hr>
 	</div>	
-		<script src="myscripts.js?v=1.21"></script>
+		<script src="../myscripts.js?v=1.21"></script>
 </body>
 </html>

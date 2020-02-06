@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Globals</title>
-    <link rel="stylesheet" href="style.css?v=1.23">
+    <link rel="stylesheet" href="../style.css?v=1.23">
 </head>
 
 <body>
@@ -25,7 +25,7 @@
         echo "<br/>";
     ?>
     </div>
-    <script src="myscripts.js?v=1.21"></script>
+    <script src="../myscripts.js?v=1.21"></script>
 </body>
 
 </html>

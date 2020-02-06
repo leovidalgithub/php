@@ -7,7 +7,7 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Exercise 2</title>
 	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="style.css?v=1.23">
+	<link rel="stylesheet" href="../style.css?v=1.23">
 </head>
 
 <body>
@@ -82,7 +82,7 @@
 			</tbody>
 		</table>
 	</div>
-	<script src="myscripts.js?v=1.21"></script>
+	<script src="../myscripts.js?v=1.21"></script>
 </body>
 
 </html>

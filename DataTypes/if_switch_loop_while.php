@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>if_switch_loop_while</title>
-    <link rel="stylesheet" href="style.css?v=1.24">
+    <link rel="stylesheet" href="../style.css?v=1.24">
 </head>
 
 <body>
@@ -67,7 +67,7 @@
         echo "<hr>";
         ?>
     </div>
-    <script src="myscripts.js?v=1.24"></script>
+    <script src="../myscripts.js?v=1.24"></script>
 </body>
 
 </html>

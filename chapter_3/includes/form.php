@@ -1,7 +1,7 @@
 <strong><br /><br />
     <font color=#CC0000>* Required Fields</font>
 </strong><br /><br />
-<form class="container" name="theForm" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>">
+<form class="container" name="theForm" method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
     <div>
         <label for="empid">*Employee Id:</label>
         <input id="empid" type="text" name="employeeId"><br />
