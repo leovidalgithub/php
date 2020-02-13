@@ -1,8 +1,6 @@
-/* CSS Document */
-
-/*PAGE LAYOUT*/
 body {
     margin: 0;
+    box-sizing: border-box;
 }
 #logo{float:left; background-image:url(tie_logo.gif); width:274px; height:213px;}
 #topheader{float:right; width:526px; height:97px; background-color:#F0F0F0; position:relative}
@@ -20,6 +18,7 @@ body {
 
 /*TEXT STYLES*/
 .bodytext {
+    text-align: justify;
 	font: 0.7em Tahoma, sans-serif;
 	color: #666666;
 }
@@ -111,4 +110,8 @@ body {
 .container input[type=submit]:hover {
     background-color: #666666;
     color: antiquewhite;
+}
+.redAlert {
+    color: crimson;
+    font-weight: bold;
 }
