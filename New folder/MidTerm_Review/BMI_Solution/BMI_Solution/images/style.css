@@ -1,13 +1,18 @@
+/* CSS Document */
+
+/*PAGE LAYOUT*/
 body {
-    margin: 0;
-    box-sizing: border-box;
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
 }
 #logo{float:left; background-image:url(tie_logo.gif); width:274px; height:213px;}
 #topheader{float:right; width:526px; height:97px; background-color:#F0F0F0; position:relative}
 #toplinks{position:absolute; right:10px; top:10px;}
 #menu{float:right; width:526px; height:32px; background-image:url(bg_menu.gif); background-repeat:repeat-x;}
 #submenu{float:right; width:526px; height:32px; background-image:url(bg_submenu.gif); background-position:top; background-repeat:repeat-x;}
-#contenttext{float:right; width:626px;}
+#contenttext{float:right; width:526px;}
 #leftpanel{float:left; width:274px;}
 #footer{float:left; width:800px; background-color:#F0F0F0; padding:10px;}
 
@@ -18,7 +23,6 @@ body {
 
 /*TEXT STYLES*/
 .bodytext {
-    text-align: justify;
 	font: 0.7em Tahoma, sans-serif;
 	color: #666666;
 }
@@ -88,45 +92,4 @@ body {
 }
 .smallredtext a:hover{
 	text-decoration:underline;
-}
-
-.container {
-    width: 400px;
-}
-.container div {
-    margin-bottom: 10px;
-    text-align: center;
-}
-.container label {
-    float: left;
-    width: 100px;
-    white-space: nowrap;
-    padding: 5px;
-}
-.container input {
-    padding: 5px;
-    width: 220px;
-}
-.container input[type=submit]:hover {
-    background-color: #666666;
-    color: antiquewhite;
-}
-.redAlert {
-    color: crimson;
-    font-weight: bold;
-}
-
-.carsexercise {
-	font-size: 1rem;
-	font-weight: bold ;
-}
-.carsexercise h4 {
-	font-size: 1.5rem;
-	color: crimson;
-	margin-bottom: 16px;
-	font-weight: bold;
-}
-
-.carsexercise .linethrough {
-	text-decoration: line-through red;
 }

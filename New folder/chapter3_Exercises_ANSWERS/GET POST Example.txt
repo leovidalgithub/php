@@ -1,0 +1,11 @@
+<html>
+<body>
+
+
+<form method = "POST">
+<input type="hidden" name="name" value="value">
+<button type="submit"> PRESS ME! </button>
+</form>
+
+</body>
+</html>
