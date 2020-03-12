@@ -1,6 +1,13 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: cadetblue;
-    color: cornsilk;
+    background-color:#344fa0;
+    color: goldenrod;
+}
+section {
+	width: 95%;
+	margin: 35px auto;
+	background-color: #324b96;
+	border-radius: 4px;
+	padding: 25px 10px;
 }

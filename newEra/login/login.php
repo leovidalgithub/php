@@ -1,3 +1,4 @@
+<?php $var = 'Just do it!'; ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,41 +11,43 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="login-box">
-            <div class="row">
-                <div class="col-md-6" style="border:#666 1px solid;">
-                    <h2>Login here</h2>
-                    <form action="validation.php" method="post">
-                        <div class="form-group">
-                            <label for="username">User Name</label>
-                            <input type="text" name="username" class="form-control" id="username" placeholder="Enter user name" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" name="password" class="form-control" id="password" placeholder="Password here" required />
-                        </div>
-                        <button type="submit" class="btn btn-primary">Login</button>
-                    </form>
-                </div>
-                <div class="col-md-6" style="border:#666 1px solid;">
-                    <h2>Register</h2>
-                    <form action="registration.php" method="post">
-                        <div class="form-group">
-                            <label for="username">User Name</label>
-                            <input type="text" name="username" class="form-control" id="username" placeholder="Enter user name" required />
-                        </div>
-                        <div class="form-group">
-                            <label for="password">Password</label>
-                            <input type="password" name="password" class="form-control" id="password" placeholder="Password here" required />
-                        </div>
-                        <button type="submit" class="btn btn-primary">Register</button>
-                    </form>
+    <section>
+        <div class="container">
+            <h2><?php printf("My %drd message for you : %s", 3, $var); ?></h2>
+            <div class="login-box">
+                <div class="row">
+                    <div class="col-md-6" style="border-right:#666 1px solid;">
+                        <h3>Login here</h3>
+                        <form action="validation.php" method="post">
+                            <div class="form-group">
+                                <label for="username">User Name</label>
+                                <input type="text" name="username" class="form-control" id="username" placeholder="Enter user name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" class="form-control" id="password" placeholder="Password here" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Login</button>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Register</h3>
+                        <form action="registration.php" method="post">
+                            <div class="form-group">
+                                <label for="username">User Name</label>
+                                <input type="text" name="username" class="form-control" id="username" placeholder="Enter user name" required />
+                            </div>
+                            <div class="form-group">
+                                <label for="password">Password</label>
+                                <input type="password" name="password" class="form-control" id="password" placeholder="Password here" required />
+                            </div>
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
+    </section>
 </body>
 
 </html>
